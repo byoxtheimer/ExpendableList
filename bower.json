@@ -1,0 +1,38 @@
+{
+  "name": "ExpendableList",
+  "description": "Expendable list mobile application",
+  "main": "develop/source/html/index.html",
+  "authors": [
+    "byoxtheimer@gmail.com"
+  ],
+  "license": "All rights reserved.",
+  "keywords": [
+    "ios",
+    "android"
+  ],
+  "moduleType": [],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.2",
+    "moment": "^2.12.0",
+    "document-register-element": "^0.5.4",
+    "lodash": "^4.8.2",
+    "history.js": "history#^1.8.0",
+    "babel-polyfill": "^0.0.1",
+    "moment-timezone": "^0.5.3",
+    "fastclick": "^1.0.6",
+    "bluebird": "^3.4.1"
+  },
+  "devDependencies": {
+    "jasmine-jquery": "^2.1.1",
+    "jasmine-matchers": "^0.2.2"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "js": [
+    "!develop/source/js/adapters/url-storage.js",
+    "develop/shims/**/*.js",
+    "develop/source/js/*.js",
+    "develop/source/js/adapters/**/*.js",
+    "develop/source/js/services/**/*.js",
+    "develop/source/js/ui/**/*.js",
+    "develop/source/js/vendors/**/*.js",
+    "develop/source/elements/base-element.js",
+    "develop/source/elements/**/*.js"
+  ],
+  "test": [
+    "develop/spec/spec-helper.js",
+    "develop/spec/**/*-spec.js"
+  ],
+  "vendorTest": [
+    "develop/spec/vendor/jasmine-jquery.js",
+    "develop/spec/vendor/jasmine-matchers.js"
+  ],
+  "urlStorage": [
+    "develop/source/js/adapters/url-storage.js"
+  ],
+  "pluginStubs": [
+    "develop/pluginStubs/*.js"
+  ],
+  "sass": [
+    "develop/source/sass/style.scss"
+  ],
+  "html": [
+    "develop/source/html/**/*.html"
+  ],
+  "assets": [
+    "develop/source/assets/**/*"
+  ]
+}
