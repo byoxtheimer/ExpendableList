@@ -1,0 +1,14 @@
+{
+  "name": "jasmine-matchers",
+  "homepage": "https://github.com/uxebu/jasmine-matchers",
+  "version": "0.2.2",
+  "_release": "0.2.2",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.2.2",
+    "commit": "5254524995402f3700f3e8b0fb5d8bd5c41c1084"
+  },
+  "_source": "https://github.com/uxebu/jasmine-matchers.git",
+  "_target": "^0.2.2",
+  "_originalSource": "jasmine-matchers"
+}

@@ -1,8 +1,2 @@
 .idea/
-platforms
-plugins
 .DS_Store
-node_modules
-/www
-bower_components
-front-end-only.sublime-project
