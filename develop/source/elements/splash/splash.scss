@@ -1,0 +1,51 @@
+splash-screen {
+
+  background: radial-gradient(circle 100vh, #338EBD, #064E74);
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1000;
+  display: block;
+  animation: shortenSplash 1.5s ease-in;
+  animation-fill-mode: forwards;
+  transform: translateZ(0);
+
+  .logo {
+    z-index: 1;
+    height: 100vh;
+    width: 0vw;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    overflow: hidden;
+    animation: phaseIn 1.5s ease-in;
+    animation-fill-mode: forwards;
+  }
+
+  img {
+    width: 70vw;
+    margin-top: 40vh;
+    animation: phaseInImage 1.5s ease-in;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes phaseIn {
+    0%   { height: 100vh; width: 0vw; left: 70vw; margin-left: 15vw; }
+    50%  { height: 100vh; width: 70vw; left: 0vw; margin-left: 15vw; }
+    100% { height: 60px; width: 130px; left: 0vw; margin-left: 3vw; }
+  }
+
+  @keyframes phaseInImage {
+    0%   { width: 70vw; margin-top: 40vh; left: -60vw; }
+    50%  { width: 70vw; margin-top: 40vh; left: 0vw; }
+    100% { width: 130px; margin-top: 23.164px; left: 0vw; }
+  }
+
+  @keyframes shortenSplash {
+    0%   { height: 100vh; }
+    50%  { height: 100vh; }
+    100% { height: 60px; }
+  }
+
+}

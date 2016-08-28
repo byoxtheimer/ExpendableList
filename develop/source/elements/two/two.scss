@@ -1,0 +1,15 @@
+account-signup {
+
+  @import '../../sass/constants';
+	@import '../../sass/icons';
+	@import '../../sass/mixins';
+
+  background-color: blue;
+
+  h1 {
+    padding: 5%;
+    font-weight: 600;
+
+  }
+
+}

@@ -1,0 +1,76 @@
+@import '../sass/constants.scss';
+
+$fieldScale: .75rem;
+$labelScale: $fieldScale * 1.25;
+$inputScale: $fieldScale * 2;
+
+form {
+  label {
+    display: block;
+    font-family: aller, sans-serif;
+    padding: 0;
+
+    &[required]:after {
+      content: '*';
+      display: inline-block;
+      position: relative;
+      color: $accent_orange;
+      top: 0;
+      left: 0;
+    }
+  }
+
+  input,
+  select {
+    width: 98%;
+    padding: .25em .25em;
+    font-size: $inputScale;
+    border: 1px solid #cacaca;
+    border-radius: .2em;
+    font-family: aller, arial;
+
+    &.error {
+      background-color: $errorRed;
+    }
+  }
+}
+
+.checkmark-checkbox {
+  height: 1.5rem;
+  width: 1.5rem;
+  border: 1px solid #cacaca;
+  border-radius: 15%;
+  display: inline-block;
+
+  &:after {
+    line-height: 1.5;
+    height: 1.5rem;
+    content: '\2714';
+    text-align: center;
+    color: #2c3e50;
+    width: 1.5rem;
+    display: inline-block;
+    font-size: 1rem;
+    transition: all .25s ease;
+    transform: scale(0);
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  &:checked {
+    background-color: rgba(0, 0, 0, 0.4); /* iOS fix */
+  }
+
+  &:checked:after {
+    transform: scale(1);
+  }
+}
+
+.checkbox-label {
+  display: inline-block;
+  vertical-align: top;
+  width: 85%;
+  margin-left: 1em;
+  margin-top: .25em;
+}

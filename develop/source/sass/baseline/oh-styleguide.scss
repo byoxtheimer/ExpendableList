@@ -1,0 +1,38 @@
+@import '../constants';
+
+.oh-title {
+  font-family: $adelle_font;
+  font-size: 2rem;
+}
+
+.oh-copy-title {
+  font-family: allerBold, serif;
+  font-size: 1rem;
+}
+
+.oh-sub-copy {
+  font-family: aller, sans-serif;
+}
+
+phone-number {
+  text-decoration: none;
+}
+
+button.cta {
+  background-color: #eb8a3b;
+  color: white;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: 0;
+  height: 50px;
+  width: 100%;
+  border-radius: 5px;
+  font-family: Aller;
+  letter-spacing: 1.5px;
+}
+
+button[disabled],
+input[type='submit'][disabled] {
+  background-color: grey;
+}
