@@ -1,0 +1,124 @@
+$open_sans_font: "Open Sans", sans-serif, arial;
+$adelle_font: adelle, Georgia, serif;
+$adelle_bold: adelleBold, Georgia, serif;
+$open_sans_font: OpenSans, sans-serif, arial;
+$open_sans_bold: OpenSansBold, sans-serif, arial;
+
+$smallestBreakpoint: 375px;
+$navbarHeight: 8.25vh;
+$navbarSmallHeight: 10.5vh;
+
+$primary_darker_blue: rgb(2, 31, 67);
+$primary_dark_blue: rgb(0, 57, 113);
+$primary_blue: #0c7bb3;
+$primary_light_blue: #81bcc4;
+$primary_silver: #edeae4;
+$lightGrey: #bcbcbc;
+
+$accent_purple: #64407f;
+$accent_orange: #eb8a3b;
+$accent_green: #76b029;
+
+$cool_green: #4cb45f;
+
+$dark_blue_background_color: #003971; //WAT?
+
+$button_color_dark: #333;
+
+$gray_text_color: #333;
+$gray_bg_color: #f8f8f8;
+
+$red: rgb(217, 22, 22);
+$errorRed: #FFCED6;
+
+/* LOADING-ELEMENT VARIABLES */
+$loaderWidth: 72px;
+$loaderHeight: 72px;
+$loaderZIndex: 10;
+
+// @font-face {
+//   font-family: 'adelle';
+//
+//   src: url('../assets/fonts/adelle_regular-webfont.eot');
+//   src: url('../assets/fonts/adelle_regular-webfont.eot?#iefix') format('embedded-opentype'),
+//   url('../assets/fonts/adelle_regular-webfont.woff2') format('woff2'),
+//   url('../assets/fonts/adelle_regular-webfont.woff') format('woff'),
+//   url('../assets/fonts/adelle_regular-webfont.ttf') format('truetype'),
+//   url('../assets/fonts/adelle_regular-webfont.svg#adelleregular') format('svg');
+//
+//   font-weight: normal;
+//   font-style: normal;
+//
+// }
+//
+// @font-face {
+//   font-family: 'adelleBold';
+//
+//   src: url('../assets/fonts/Adelle-Bold.eot');
+//   src: url('../assets/fonts/Adelle-Bold.eot?#iefix') format('embedded-opentype'),
+//   url('../assets/fonts/Adelle-Bold.woff2') format('woff2'),
+//   url('../assets/fonts/Adelle-Bold.woff') format('woff'),
+//   url('../assets/fonts/Adelle-Bold.ttf') format('truetype'),
+//   url('../assets/fonts/Adelle-Bold.svg#adelleregular') format('svg');
+//
+//   font-weight: normal;
+//   font-style: normal;
+//
+// }
+//
+// @font-face {
+//   font-family: 'aller';
+//
+//   src: url('../assets/fonts/Aller.eot');
+//   src: url('../assets/fonts/Aller.eot?#iefix') format('embedded-opentype'),
+//   url('../assets/fonts/Aller.woff') format('woff'),
+//   url('../assets/fonts/Aller.ttf') format('truetype'),
+//   url('../assets/fonts/Aller.svg#adelleregular') format('svg');
+//
+//   font-weight: normal;
+//   font-style: normal;
+//
+// }
+//
+// @font-face {
+//   font-family: 'OpenSans';
+//
+//   src: url('../assets/fonts/OpenSans.eot?#iefix') format('embedded-opentype'),
+//   url('../assets/fonts/OpenSans.woff') format('woff'),
+//   url('../assets/fonts/OpenSans.ttf') format('truetype'),
+//   url('../assets/fonts/OpenSans.svg#OpenSans') format('svg');
+//
+//   font-weight: normal;
+//   font-style: normal;
+// }
+//
+// @font-face {
+//   font-family: 'allerBold';
+//
+//   src: url('../assets/fonts/Aller-Bold.ttf') format('truetype');
+//
+//   font-weight: normal;
+//   font-style: normal;
+// }
+//
+// @font-face {
+//   font-family: 'OpenSansBold';
+//
+//   src: url('../assets/fonts/OpenSans-Bold.eot?#iefix') format('embedded-opentype'),
+//   url('../assets/fonts/OpenSans-Bold.woff') format('woff'),
+//   url('../assets/fonts/OpenSans-Bold.woff2') format('woff2'),
+//   url('../assets/fonts/OpenSans-Bold.ttf') format('truetype'),
+//   url('../assets/fonts/OpenSans-Bold.svg#OpenSans') format('svg');
+//
+//   font-weight: normal;
+//   font-style: normal;
+//
+// }
+
+.hidden, .is-hidden {
+  display: none !important;
+}
+
+span.vert-sep {
+  margin: auto 10px;
+}

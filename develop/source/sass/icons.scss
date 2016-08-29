@@ -1,0 +1,349 @@
+// @import './constants';
+//
+// .icon-doc {
+//   -webkit-mask: url(../assets/OH-icon-set_doc.svg) no-repeat 50% 50%;
+//   mask: url(../assets/OH-icon-set_doc.svg) no-repeat 50% 50%;
+//   -webkit-mask-size: cover;
+//   mask-size: cover;
+// }
+//
+// .icon-email {
+//   -webkit-mask: url(../assets/OH-icon-set_email.svg) no-repeat 50% 50%;
+//   mask: url(../assets/OH-icon-set_email.svg) no-repeat 50% 50%;
+//   -webkit-mask-size: cover;
+//   mask-size: cover;
+// }
+//
+// .icon-calendar {
+//   -webkit-mask: url(../assets/OH-icon-set_calendar.svg) no-repeat 50% 50%;
+//   mask: url(../assets/OH-icon-set_calendar.svg) no-repeat 50% 50%;
+//   -webkit-mask-size: cover;
+//   mask-size: cover;
+// }
+//
+// .icon-clock {
+//   -webkit-mask: url(../assets/OH-icon-set_clock.svg) no-repeat 50% 50%;
+//   mask: url(../assets/OH-icon-set_clock.svg) no-repeat 50% 50%;
+//   -webkit-mask-size: cover;
+//   mask-size: cover;
+// }
+//
+// .icon-pin {
+//   -webkit-mask: url(../assets/OH-icon-set_pin.svg) no-repeat 50% 50%;
+//   mask: url(../assets/OH-icon-set_pin.svg) no-repeat 50% 50%;
+//   -webkit-mask-size: cover;
+//   mask-size: cover;
+// }
+//
+// .icon-phone {
+//   -webkit-mask: url(../assets/OH-icon-set_phone.svg) no-repeat 50% 50%;
+//   mask: url(../assets/OH-icon-set_phone.svg) no-repeat 50% 50%;
+//   -webkit-mask-size: cover;
+//   mask-size: cover;
+// }
+//
+// .icon-check {
+//   -webkit-mask: url(../assets/OH-icon-set_checkmark.svg) no-repeat 50% 50%;
+//   mask: url(../assets/OH-icon-set_checkmark.svg) no-repeat 50% 50%;
+//   -webkit-mask-size: cover;
+//   mask-size: cover;
+// }
+//
+// .icon-chat {
+//   -webkit-mask: url(../assets/OH-icon-set_messages.svg) no-repeat 50% 50%;
+//   mask: url(../assets/OH-icon-set_messages.svg) no-repeat 50% 50%;
+//   -webkit-mask-size: cover;
+//   mask-size: cover;
+// }
+//
+// .icon-key {
+//   -webkit-mask: url(../assets/OH-icon-set_key.svg) no-repeat 50% 50%;
+//   mask: url(../assets/OH-icon-set_key.svg) no-repeat 50% 50%;
+//   -webkit-mask-size: cover;
+//   mask-size: cover;
+// }
+//
+// .icon-rx {
+//   -webkit-mask: url(../assets/OH-icon-set_px.svg) no-repeat 50% 50%;
+//   mask: url(../assets/OH-icon-set_px.svg) no-repeat 50% 50%;
+//   -webkit-mask-size: cover;
+//   mask-size: cover;
+// }
+//
+// .icon-reminders {
+//   -webkit-mask: url(../assets/OH-icon-set_reminder.svg) no-repeat 50% 50%;
+//   mask: url(../assets/OH-icon-set_reminder.svg) no-repeat 50% 50%;
+//   -webkit-mask-size: cover;
+//   mask-size: cover;
+// }
+//
+// .icon-tests {
+//   -webkit-mask: url(../assets/OH-icon-set_testresults.svg) no-repeat 50% 50%;
+//   mask: url(../assets/OH-icon-set_testresults.svg) no-repeat 50% 50%;
+//   -webkit-mask-size: cover;
+//   mask-size: cover;
+// }
+//
+// .icon-summary {
+//   -webkit-mask: url(../assets/OH-icon-set_healthsummary.svg) no-repeat 50% 50%;
+//   mask: url(../assets/OH-icon-set_healthsummary.svg) no-repeat 50% 50%;
+//   -webkit-mask-size: cover;
+//   mask-size: cover;
+// }
+//
+// .icon-left {
+//   -webkit-mask: url(../assets/OH-icon-set_leftarrow.svg) no-repeat 50% 50%;
+//   mask: url(../assets/OH-icon-set_leftarrow.svg) no-repeat 50% 50%;
+//   -webkit-mask-size: cover;
+//   mask-size: cover;
+// }
+//
+// .icon-right {
+//   -webkit-mask: url(../assets/OH-icon-set_rightarrow.svg) no-repeat 50% 50%;
+//   mask: url(../assets/OH-icon-set_rightarrow.svg) no-repeat 50% 50%;
+//   -webkit-mask-size: cover;
+//   mask-size: cover;
+// }
+//
+// .icon-feedback {
+//   -webkit-mask: url(../assets/OH-icon-set_feedback.svg) no-repeat 50% 50%;
+//   mask: url(../assets/OH-icon-set_feedback.svg) no-repeat 50% 50%;
+//   -webkit-mask-size: cover;
+//   mask-size: cover;
+// }
+//
+// .icon-menu {
+//   -webkit-mask: url(../assets/OH-icon-set_menu.svg) no-repeat 50% 50%;
+//   mask: url(../assets/OH-icon-set_menu.svg) no-repeat 50% 50%;
+//   -webkit-mask-size: cover;
+//   mask-size: cover;
+// }
+//
+// .icon-home {
+//   -webkit-mask: url(../assets/OH-icon-set_home.svg) no-repeat 50% 50%;
+//   mask: url(../assets/OH-icon-set_home.svg) no-repeat 50% 50%;
+//   -webkit-mask-size: cover;
+//   mask-size: cover;
+// }
+//
+// .icon-notification {
+//   -webkit-mask: url(../assets/OH-icon-set_notification.svg) no-repeat 50% 50%;
+//   mask: url(../assets/OH-icon-set_notification.svg) no-repeat 50% 50%;
+//   -webkit-mask-size: cover;
+//   mask-size: cover;
+// }
+//
+// .icon-close {
+//   -webkit-mask: url(../assets/OH-icon-set_close.svg) no-repeat 50% 50%;
+//   mask: url(../assets/OH-icon-set_close.svg) no-repeat 50% 50%;
+//   -webkit-mask-size: cover;
+//   mask-size: cover;
+// }
+//
+// .icon-lt-green {
+//   background-color: #a4f735;
+// }
+//
+// .icon-light-grey {
+//   background-color: $lightGrey;
+// }
+//
+// .icon-blue {
+//   background-color: #0c7bb3;
+// }
+//
+// .icon-white {
+//   background-color: #fff;
+// }
+//
+// @mixin clock-icon($width, $height) {
+//   background-color: $primary_blue;
+//   -webkit-mask: url(../assets/clock.svg) no-repeat 50% 50%;
+//   mask: url(../assets/clock.svg) no-repeat 50% 50%;
+//
+//   width: $width;
+//   height: $height;
+// }
+//
+// //@include clock-icon(40px, 40px);
+//
+// @mixin clock-solid-icon($width, $height) {
+//   background-color: $primary_blue;
+//   -webkit-mask: url(../assets/solid_clock.svg) no-repeat 50% 50%;
+//   mask: url(../assets/solid_clock.svg) no-repeat 50% 50%;
+//
+//   width: $width;
+//   height: $height;
+// }
+//
+// //@include clock-icon(40px, 40px);
+//
+// @mixin emergency-care-icon() {
+//   width: 40px;
+//   height: 40px;
+//   background-color: $red;
+//   -webkit-mask: url(../assets/square-pin.svg) no-repeat 50% 50%;
+//   mask: url(../assets/square-pin.svg) no-repeat 50% 50%;
+//   background-size: contain;
+//   background-repeat: no-repeat;
+//
+//   &:after {
+//     content: 'E';
+//     font-size: 22px;
+//     font-weight: 800;
+//     position: absolute;
+//     padding: 5.5px 13.5px;
+//     color: white;
+//   }
+// }
+//
+// //@include emergency-care-icon();
+//
+// @mixin emergency-care-icon-small() {
+//   @include emergency-care-icon();
+//
+//   width: 32px;
+//   height: 32px;
+//
+//   &:after {
+//     font-size: 15px;
+//     padding: 6px 12px;
+//   }
+// }
+//
+// @mixin urgent-care-icon() {
+//   margin-left: 10px;
+//   width: 32px;
+//   height: 32px;
+//   background-color: #0c7bb3;
+//   -webkit-mask: url(../assets/oval-pin.svg) no-repeat 50% 50%;
+//   mask: url(../assets/oval-pin.svg) no-repeat 50% 50%;
+//   background-size: contain;
+//   background-repeat: no-repeat;
+//
+//   &:after {
+//     content: 'U';
+//     font-size: 14px;
+//     font-weight: 800;
+//     position: absolute;
+//     padding: 6px 11px;
+//     color: #fff;
+//   }
+// }
+//
+// //@inlcude urgent-care-icon();
+//
+// @mixin urgent-care-icon-small() {
+//   @include urgent-care-icon();
+//
+//   width: 32px;
+//   height: 32px;
+//
+//   &:after {
+//     font-size: 18px;
+//     padding: 6px 10px;
+//   }
+// }
+//
+// @mixin placeholder-icon($width, $height) {
+//   width: $width;
+//   height: $height;
+//   background-color: black;
+//   -webkit-mask: url(../assets/placeholder.svg) no-repeat 50% 50%;
+//   mask: url(../assets/placeholder.svg) no-repeat 50% 50%;
+//   background-size: contain;
+//   background-repeat: no-repeat;
+// }
+//
+// @mixin map-icon() {
+//   background-color: white;
+//   -webkit-mask: url(../assets/map.svg) no-repeat 50% 50%;
+//   mask: url(../assets/map.svg) no-repeat 50% 50%;
+//   background-size: contain;
+//   background-repeat: no-repeat;
+// }
+//
+// //@include map-icon();
+//
+// @mixin plus-icon() {
+//   background-color: white;
+//   -webkit-mask: url(../assets/add.svg) no-repeat 50% 50%;
+//   mask: url(../assets/add.svg) no-repeat 50% 50%;
+//   background-size: contain;
+//   background-repeat: no-repeat;
+// }
+//
+// //@include plus-icon();
+//
+// @mixin minus-icon() {
+//   background-color: white;
+//   -webkit-mask: url(../assets/minus.svg) no-repeat 50% 50%;
+//   mask: url(../assets/minus.svg) no-repeat 50% 50%;
+//   background-size: contain;
+//   background-repeat: no-repeat;
+// }
+//
+// //@include minus-icon();
+//
+// @mixin stethoscope-icon() {
+//   background-color: white;
+//   -webkit-mask: url(../assets/stethoscope.svg) no-repeat 50% 50%;
+//   mask: url(../assets/stethoscope.svg) no-repeat 50% 50%;
+//   background-size: contain;
+//   background-repeat: no-repeat;
+// }
+//
+// //@include stethoscope-icon();
+//
+// @mixin calendar-icon() {
+//   background-color: white;
+//   -webkit-mask: url(../assets/calendar.svg) no-repeat 50% 50%;
+//   mask: url(../assets/calendar.svg) no-repeat 50% 50%;
+//   background-size: contain;
+//   background-repeat: no-repeat;
+// }
+//
+// //@include calendar-icon();
+//
+// @mixin billing-icon() {
+//   background-color: white;
+//   -webkit-mask: url(../assets/billing.svg) no-repeat 50% 50%;
+//   mask: url(../assets/billing.svg) no-repeat 50% 50%;
+//   background-size: contain;
+//   background-repeat: no-repeat;
+// }
+//
+// //@include billing-icon();
+//
+// @mixin list-icon() {
+//   background-color: white;
+//   -webkit-mask: url(../assets/list.svg) no-repeat 50% 50%;
+//   mask: url(../assets/list.svg) no-repeat 50% 50%;
+//   background-size: contain;
+//   background-repeat: no-repeat;
+// }
+//
+// //@include plus-icon();
+//
+// @mixin messaging-icon() {
+//   -webkit-mask: url(../assets/OH-icon-set_messages.svg) no-repeat 50% 50%;
+//   mask: url(../assets/OH-icon-set_messages.svg) no-repeat 50% 50%;
+//   -webkit-mask-size: cover;
+//   mask-size: cover;
+// }
+//
+// //@include messaging-icon();
+//
+// @mixin chevron-icon($rotation) {
+//   background-color: white;
+//   -webkit-mask: url(../assets/back.svg) no-repeat 50% 50%;
+//   mask: url(../assets/back.svg) no-repeat 50% 50%;
+//   background-size: contain;
+//   background-repeat: no-repeat;
+//
+//   -ms-transform: rotate(180deg + $rotation); /* IE 9 */
+//   -webkit-transform: rotate(180deg + $rotation); /* Chrome, Safari, Opera */
+//   transform: rotate($rotation);
+// }
+//
+// //@include chevron-icon();
